@@ -1,0 +1,13 @@
+{
+  "name": "practica-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:tailwind": "./node_modules/.bin/tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start:tailwind": "./node_modules/.bin/tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

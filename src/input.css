@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .bg-gradient-effect {
+    @apply bg-gradient-to-r from-[#fd5579] to-[#ff683d];
+  }
+}
